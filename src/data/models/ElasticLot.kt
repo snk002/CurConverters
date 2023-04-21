@@ -1,0 +1,27 @@
+package data.models
+
+data class ElasticLot(
+    val platform_lot_id: String,
+    val title: String,
+    val category: String,
+    val tags: String,
+    val low_estimate: Double,
+    val high_estimate: Double,
+    val starting_price: Double,
+    val status: String,
+    val sale_date: String,
+    val hammer_price: Double,
+    val auction_name: String,
+    val sale_id: String,
+    val sale_name: String,
+    val country: String,
+    val city: String,
+    val number: String,
+    val currency: String,
+    val description: String,
+    val original_url: String,
+    val img_url: List<String>,
+    val platform_code: String,
+    val house_code: String,
+    val global_house_code: Int,
+)
